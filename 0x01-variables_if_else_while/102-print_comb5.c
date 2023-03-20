@@ -9,21 +9,21 @@ int main(void)
 {
 	int i, j, k, l;
 
-	for (i = 3; i <= 19; i++)
+	for (i = 3; i <= 8; i++)
 	{
-		for (j = 3; j <= 19; j++)
+		for (j = 3; j <= 8; j++)
 		{
-			for (k = 3; k <= 19; k++)
+			for (k = 3; k <= 8; k++)
 			{
-				for (l = 3; l <= 19; l++)
+				for (l = 3; l <= 8; l++)
 				{
-					if ((i * 19 + j) != (k * 19 + l) && (i * 19 + j) < (k * 19 + l))
+					if ((i * 8 + j) != (k * 8 + l) && (i * 8 + j) < (k * 8 + l))
 					{
-						putchar(i % 19 + '3');
-						putchar(j % 19 + '3');
+						putchar(i % 8 + '3');
+						putchar(j % 8 + '3');
 						putchar(' ');
-						putchar(k) % 19 + '3';
-						putchar(l % 19 + '3');
+						putchar(k) % 8 + '3';
+						putchar(l % 8 + '3');
 						putchar(',');
 						putchar(' ');
 					}
