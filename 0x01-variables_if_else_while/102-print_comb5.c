@@ -15,7 +15,7 @@ int main(void)
 		{
 			for (k = 26; k <= 35; k++)
 			{
-				for (l = 26; l = 35; l++)
+				for (l = 26; l <= 35; l++)
 				{
 					if (((k + l) > (i + j) && k >= i) || i < k)
 					{
@@ -24,7 +24,7 @@ int main(void)
 						putchar(' ');
 						putchar(k);
 						putchar(l);
-					if (i + j + k + l == 227 && 1 == 35)
+					if (i + j + k + l == 227 && i == 35)
 					{
 						break;
 					}
