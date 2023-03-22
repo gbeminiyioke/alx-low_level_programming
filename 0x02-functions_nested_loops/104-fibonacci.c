@@ -28,7 +28,7 @@ int main(void)
 		printf(", %lu", n + (o / 1000000000));
 		printf("%lu", o % 1000000000);
 		n = n + l;
-		l = l - l;
+		l = n - l;
 		o = o + m;
 		m = o - m;
 	}
