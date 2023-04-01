@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**_strcat - this function concertenates two
+/**
+ * _strcat - this function concertenates two
  * strings
  * @dest: destination
  * @src: source
