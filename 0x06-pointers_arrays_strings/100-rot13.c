@@ -4,8 +4,8 @@
 /**
  * rot13 - this function encodes a string
  * using rot13
- * @a: pointer to string params
- * Return: *a
+ * @s: pointer to string params
+ * Return: *s
  */
 
 char *rot13(char *s)
