@@ -30,5 +30,5 @@ int prime_number(int i, int j)
 		return (1);
 	if (i % j == 0 && j > 0)
 		return (0);
-	return(prime_number(i, j - 1));
+	return (prime_number(i, j - 1));
 }
