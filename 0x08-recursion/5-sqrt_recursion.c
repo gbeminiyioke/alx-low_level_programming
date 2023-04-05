@@ -27,8 +27,8 @@ int _sqrt_recursion(int n)
 int natural_sqrt(int i, int j)
 {
 	if (j * j == i)
-		return (1);
-	if (j * j > i)
 		return (j);
+	if (j * j > i)
+		return (-1);
 	return (natural_sqrt(i, j + 1));
 }
