@@ -5,7 +5,7 @@
  * str_concat - this function concatenates
  * two strings
  * @s1: first string
- * #s2: second string
+ * @s2: second string
  * Return: s1 + s2
  */
 
