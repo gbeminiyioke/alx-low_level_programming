@@ -7,7 +7,7 @@
  * a newly allocated space in memory which
  * contains a copy of the string given as a
  * parameter
- * #str: string
+ * @str: string
  * Return: zero
  */
 
