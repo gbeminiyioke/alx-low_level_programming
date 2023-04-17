@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
 		return (1);
 	for (j = 0; j <= num_len1 + num_len2; j++)
 		tot[j] = 0;
-	for (num_len1 = num_len1 -1; num_len1 >= 0; num_len1--)
+	for (num_len1 = num_len1 - 1; num_len1 >= 0; num_len1--)
 	{
 		a1 = c1[num_len1] - '0';
 		k = 0;
