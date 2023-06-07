@@ -9,7 +9,7 @@
  */
 int natural_sqrt(int i, int j)
 {
-	if (j * j == 1)
+	if (j * j == i)
 		return (j);
 	if (j * j > i)
 		return (-1);
