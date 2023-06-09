@@ -5,8 +5,9 @@
  * a prefix substring
  * @s: input string
  * @accept: input string
- * Return: number of bytes in segment of 
+ * Return: number of bytes in segment of
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i = 0;
@@ -22,7 +23,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 			else if (accept[j + 1] == '\0')
-					return (i);
+				return (i);
 		}
 		s++;
 	}
