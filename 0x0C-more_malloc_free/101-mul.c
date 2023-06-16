@@ -1,6 +1,10 @@
 #include "main.h"
 #define ERR_MSG "Error"
 
+void error(void);
+int is_a_digit(char *c);
+int _strlen(char *s);
+
 /**
  * error - this function will handle errors
  * Return: returns nothing
