@@ -21,10 +21,10 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	int i;
+	int n;
 
-	i = 0;
-	while (ops[i].op != NULL && *(ops[i].op) != *s)
-		i++;
-	return (ops[i].f);
+	n = 0;
+	while (ops[n].op != NULL && *(ops[n].op) != *s)
+		n++;
+	return (ops[n].f);
 }

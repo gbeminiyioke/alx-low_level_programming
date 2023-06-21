@@ -4,8 +4,8 @@
 #include <stdlib.h>
 
 /**
- * main - the main function the show the result
- * of the chosen operation
+ * main - this function shows the result of the
+ * chosen operation
  * @argc: the number of arguments
  * @argv: array of pointers to arguments
  * Return: result
@@ -29,7 +29,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	if ((*c == '/' && int2 == 0 || *c == '%' && int2 == 0))
+	if ((*c == '/' && int2 == 0) || (*c == '%' && int2 == 0))
 	{
 		printf("Error\n");
 		exit(100);
