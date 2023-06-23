@@ -20,10 +20,12 @@ int sum_them_all(const unsigned int n, ...)
 	}
 	else
 	{
-		va_start(a, n);
+		/* initialize list */
+		va_start (a, n);
 		for (i = 0; i < n; i++)
-			tot += va_arg(a, int);
-		va_end(a);
+			/*get next arg value*/
+			tot += va_arg (a, int);
+		va_end (a); /*do a clean up*/
 		return (tot);
 	}
 }
