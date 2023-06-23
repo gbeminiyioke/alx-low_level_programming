@@ -10,7 +10,7 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list a;
+	va_list ad;
 	unsigned int i, tot = 0;
 	
 	if (n == 0)
@@ -19,12 +19,10 @@ int sum_them_all(const unsigned int n, ...)
 	}
 	else
 	{
-		/* initialize list */
-		va_start (a, n);
+		va_start (ad, n);
 		for (i = 0; i < n; i++)
-			/*get next arg value*/
-			tot += va_arg (a, int);
-		va_end (a); /*do a clean up*/
+			tot += va_arg (ad, int);
+		va_end (ad);
 		return (tot);
 	}
 }
