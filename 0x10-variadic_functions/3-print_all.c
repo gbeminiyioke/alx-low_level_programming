@@ -21,19 +21,19 @@ void print_all(const char * const format, ...)
 			switch (format[i])
 			{
 				case 'c':
-					printf(" %s%c", seperator, va_arg(pq, int));
+					printf("%s %c", seperator, va_arg(pq, int));
 				break;
 				case 'i':
-				printf(" %s%d", seperator, va_arg(pq, int));
+				printf("%s %d", seperator, va_arg(pq, int));
 				break;
 				case 'f':
-				printf(" %s%f", seperator, va_arg(pq, double));
+				printf("%s %f", seperator, va_arg(pq, double));
 				break;
 				case 's':
 				c = va_arg(pq, char *);
 				if (c == NULL)
 					c = "(nil)";
-				printf(" %s%s", seperator, c);
+				printf("%s %s", seperator, c);
 				break;
 				default:
 				i++;
