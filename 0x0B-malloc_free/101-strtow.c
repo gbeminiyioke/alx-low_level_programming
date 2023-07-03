@@ -39,7 +39,7 @@ char **strtow(char *str)
 {
 	char *c, **arr;
 	int i, j, k, l, m, n, o;
-	
+
 	i = 0;
 	j = 0;
 	k = 0;
@@ -53,7 +53,7 @@ char **strtow(char *str)
 	l = no_of_words(str);
 	if (l == 0)
 		return (NULL);
-	arr = (char**) malloc(sizeof(char *) * (l + 1));
+	arr = (char **) malloc(sizeof(char *) * (l + 1));
 	if (arr == NULL)
 		return (NULL);
 	for (i = 0; i <= k; i++)
